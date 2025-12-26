@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pkl
+mlruns/
+.env
+*.pyc
+.ipynb_checkpoints/

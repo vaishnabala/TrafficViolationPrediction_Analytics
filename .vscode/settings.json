@@ -1,0 +1,5 @@
+{
+    "powerquery.client.additionalSymbolsDirectories": [
+        "d:/GitHub_Works/TrafficViolationPrediction_Analytics/.vscode/excel-pq-symbols"
+    ]
+}

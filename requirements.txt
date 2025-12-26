@@ -1,0 +1,14 @@
+pandas
+numpy
+scikit-learn
+xgboost
+shap
+lime
+fastapi
+uvicorn
+mlflow
+folium
+matplotlib
+seaborn
+tensorflow
+scipy

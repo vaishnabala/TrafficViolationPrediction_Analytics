@@ -1,0 +1,41 @@
+{
+  "isolation_forest": {
+    "precision": 0.9219047619047619,
+    "recall": 0.968,
+    "f1": 0.944390243902439,
+    "confusion_matrix": [
+      [
+        9959,
+        41
+      ],
+      [
+        16,
+        484
+      ]
+    ],
+    "n_detected": 525,
+    "n_actual": 500
+  },
+  "autoencoder": {
+    "precision": 0.9428571428571428,
+    "recall": 0.99,
+    "f1": 0.9658536585365853,
+    "threshold": 0.9437138986667223,
+    "confusion_matrix": [
+      [
+        9970,
+        30
+      ],
+      [
+        5,
+        495
+      ]
+    ],
+    "n_detected": 525,
+    "n_actual": 500
+  },
+  "comparison": {
+    "winner": "Autoencoder",
+    "f1_difference": 0.02146341463414636
+  }
+}

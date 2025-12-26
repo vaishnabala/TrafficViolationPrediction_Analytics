@@ -1,0 +1,61 @@
+{
+  "shap": {
+    "importance": {
+      "is_peak_hour": 0.13325457274913788,
+      "hour": 0.12608702480793,
+      "is_weekend": 0.10240627825260162,
+      "coords_long_scaled": 0.08143364638090134,
+      "day_of_week": 0.07916239649057388,
+      "coords_lat_scaled": 0.06873848289251328,
+      "hour_cos": 0.05169534683227539,
+      "junctionName_encoded": 0.05135171487927437,
+      "hour_sin": 0.04536474123597145,
+      "is_night": 0.043644681572914124,
+      "day_cos": 0.04084523394703865,
+      "day_sin": 0.03453667461872101,
+      "vehicleType_encoded": 0.0,
+      "junction_risk_score": 0.0,
+      "vehicle_risk_score": 0.0
+    },
+    "sample_size": 1000
+  },
+  "lime": {
+    "importance": {
+      "coords_lat_scaled": 0.045360742268722005,
+      "coords_long_scaled": 0.025810162274474385,
+      "day_of_week": 0.02465963895076298,
+      "junctionName_encoded": 0.02151601369525723,
+      "hour": 0.01313979813042986,
+      "is_night": 0.012557920990272881,
+      "vehicle_risk_score": 0.00741597961445405,
+      "day_cos": 0.00696118040457433,
+      "day_sin": 0.006906356822252816,
+      "vehicleType_encoded": 0.0062618594101054815,
+      "junction_risk_score": 0.005452375899079066,
+      "is_weekend": 0.002702558487862653,
+      "is_peak_hour": 0,
+      "hour_sin": 0,
+      "hour_cos": 0
+    },
+    "num_explanations": 100
+  },
+  "comparison": {
+    "spearman_correlation": 0.12857142857142856,
+    "p_value": 0.6479163294665075,
+    "interpretation": "Weak agreement",
+    "shap_top5": [
+      "is_peak_hour",
+      "hour",
+      "is_weekend",
+      "coords_long_scaled",
+      "day_of_week"
+    ],
+    "lime_top5": [
+      "coords_lat_scaled",
+      "coords_long_scaled",
+      "day_of_week",
+      "junctionName_encoded",
+      "hour"
+    ]
+  }
+}

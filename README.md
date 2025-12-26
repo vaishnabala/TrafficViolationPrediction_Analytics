@@ -1,2 +1,3 @@
-# TrafficViolationPrediction_Analytics
-Traffic Violation Prediction & Explainable Analytics system
+# Traffic Violation Prediction System
+
+TODO: Add project description
